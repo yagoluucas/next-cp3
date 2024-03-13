@@ -1,8 +1,11 @@
+import Image from "next/image";
+import './style.css';
 const Header = () => {
     return (
         <>
-            <header>
-                <p>Aqui vai o header</p>
+            <header className="flex">
+                <Image className="logo" src="/logo.png" alt="Logo com dois bilhetes dourados de cinema" width={200} height={200} />
+                <h1>Os melhores filmes estão aqui</h1>
             </header>
         </>
     );
