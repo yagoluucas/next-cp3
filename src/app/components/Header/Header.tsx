@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <>
             <header className="flex">
-                <Image className="logo" src="/logo.png" alt="Logo com dois bilhetes dourados de cinema" width={200} height={200} />
+                <Image className="logo" src="/logo.png" alt="Logo com dois bilhetes dourados de cinema" width={180} height={200} />
                 <h1>Os melhores filmes estão aqui</h1>
             </header>
         </>
